@@ -1,0 +1,12 @@
+.item a {
+	color: white;
+}
+
+.item .activeLink {
+	color: gold;
+}
+
+a {
+	text-decoration: none;
+}
+

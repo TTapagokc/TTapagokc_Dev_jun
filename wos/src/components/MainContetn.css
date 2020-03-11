@@ -1,0 +1,18 @@
+
+.MainContent {
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+
+.MainContent img {
+  width: 1000px;
+  height: 520px;
+}
+
+
+.Ava img {
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
