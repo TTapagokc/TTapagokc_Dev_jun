@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Dialogs.module.css';
 import {NavLink} from "react-router-dom";
+import {ActionCreatorAddMSG, ActionCreatorUPTextDialogs} from "../redux/state";
 
 const DialogItem = (props) => {
 
@@ -12,7 +13,6 @@ const DialogItem = (props) => {
         </div>
     );
 };
-
 const Message = (props) => {
     return (
         <div className={s.message}>{props.say}
@@ -22,10 +22,21 @@ const Message = (props) => {
 
 function Dialogs(props) {
     /*!!!Обработка масивов даных!!!*/
-    let dialogElemnts = props.dialogPage.dialogData.map(dialog => <DialogItem link={dialog.link} name={dialog.name} id={dialog.id}/>);
+    let dialogElemnts = props.dialogPage.dialogData.map(dialog => <DialogItem link={dialog.link} name={dialog.name}
+                                                                              id={dialog.id}/>);
     let dialogSay = props.dialogPage.msgElemets.map(msg => <Message say={msg.say}/>);
 
-
+    let NewMassage = props.dialogPage.dialogNewMassage; //Текст ериа из BLL
+    let newMSGElement = React.createRef(); //Создание ref
+    let MsgTextOnChange = () => {
+        let text = newMSGElement.current.value;
+        let actionD = ActionCreatorUPTextDialogs(text);
+        props.dispatch(actionD);
+    };
+    let AddMSG = () => {
+        props.dispatch(ActionCreatorAddMSG());
+        debugger;
+    };
 
     return (
         <div className={s.dialogs}>
@@ -34,6 +45,12 @@ function Dialogs(props) {
             </div>
             <div className={s.messages}>
                 {dialogSay}
+                <div>
+                    <textarea onChange={MsgTextOnChange} ref={newMSGElement} value={NewMassage}>New Massage</textarea>
+                    <div>
+                        <button onClick={AddMSG}>Send Massage</button>
+                    </div>
+                </div>
             </div>
         </div>
     );

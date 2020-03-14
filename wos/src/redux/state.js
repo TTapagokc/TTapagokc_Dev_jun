@@ -1,5 +1,7 @@
 const ADDPOST = 'ADD-POST';
 const UPDATETEXT = 'UPDATE-TEXT';
+const UPDATETEXTDIALOG = 'UPDATE-TEXT-DIALOG';
+const ADDMSGPOST = 'ADD-MSG-POST';
 
 let _callSubscriber = () => {
   console.log('Tree render has changed')
@@ -18,6 +20,8 @@ let store = {
             textAreaUpDate: "test-state",
         },
         dialogPage: {
+            dialogNewMassage: 'Веедите сообщение',
+
             msgElemets: [
                 {id: 1, say: "hi dude"},
                 {id: 2, say: "hi Horo"},
@@ -46,6 +50,16 @@ let store = {
         } else if (action.type === 'UPDATE-TEXT') {
             this._state.MainContentPage.textAreaUpDate = action.NewText;
             _callSubscriber();
+        } else if (action.type === 'UPDATE-TEXT-DIALOG') {
+            this._state.dialogPage.dialogNewMassage = action.NewDialogText;
+            _callSubscriber();
+        } else if (action.type === 'ADD-MSG-POST') {
+            let newMSGPost = {
+                id: 6, say: this._state.dialogPage.dialogNewMassage
+            };
+            this._state.dialogPage.msgElemets.push(newMSGPost);
+            this._state.dialogPage.dialogNewMassage = "";
+            _callSubscriber();
         }
     },
 
@@ -61,9 +75,16 @@ let store = {
 export const ActionCreatorAddPost = () => {
     return {type: ADDPOST};
 };
-
 export const ActionCreatorUPText = (text) => {
     return {type: UPDATETEXT, NewText: text};
 };
+export const ActionCreatorUPTextDialogs = (text) => {
+    return {type: UPDATETEXTDIALOG, NewDialogText: text};
+};
+export const ActionCreatorAddMSG = () => {
+    return {type: ADDMSGPOST};
+};
+
+
 
 export default store;
