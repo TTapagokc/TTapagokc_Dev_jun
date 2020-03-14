@@ -10,8 +10,7 @@ let Rerender = () => {
     ReactDOM.render(
         <BrowserRouter>
             <App state={store.getState()}
-                 craftPost={store.craftPost.bind(store)}
-                 updateText={store.updateText.bind(store)}/>
+                 dispatch={store.dispatch.bind(store)} />
         </BrowserRouter>, document.getElementById('root'));
 };
 

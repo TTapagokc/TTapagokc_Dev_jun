@@ -8,11 +8,14 @@ let MyPost = (props) => {
 
     let textUpdate = () => {
         let text = newPostElement.current.value;
-        props.updateText(text);
+        //props.updateText(text);
+        let action = {type: 'UPDATE-TEXT', NewText: text};
+        props.dispatch(action);
     };
 
     let addPost = () => {
-        props.craftPost();
+        //props.craftPost();
+        props.dispatch({type: 'ADD-POST'});
     };
 
     return (

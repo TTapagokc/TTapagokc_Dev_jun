@@ -22,8 +22,8 @@ const Message = (props) => {
 
 function Dialogs(props) {
     /*!!!Обработка масивов даных!!!*/
-    let dialogElemnts = props.dialogData.map(dialog => <DialogItem link={dialog.link} name={dialog.name} id={dialog.id}/>);
-    let dialogSay = props.msgElemets.map(msg => <Message say={msg.say}/>);
+    let dialogElemnts = props.dialogPage.dialogData.map(dialog => <DialogItem link={dialog.link} name={dialog.name} id={dialog.id}/>);
+    let dialogSay = props.dialogPage.msgElemets.map(msg => <Message say={msg.say}/>);
 
 
 

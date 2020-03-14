@@ -28,19 +28,22 @@ let store = {
             ],
         },
     },
-    updateText(text) {
-        this._state.MainContentPage.textAreaUpDate = text;
-        _callSubscriber();
+
+    dispatch(action) {
+        if (action.type === 'ADD-POST') {
+            let newPost = {
+                id: 6, postmsg: this._state.MainContentPage.textAreaUpDate,
+                likes: 0
+            };
+            this._state.MainContentPage.posts.push(newPost);
+            this._state.MainContentPage.textAreaUpDate = "";
+            _callSubscriber();
+        } else if (action.type === 'UPDATE-TEXT') {
+            this._state.MainContentPage.textAreaUpDate = action.NewText;
+            _callSubscriber();
+        }
     },
-    craftPost() {
-        let newPost = {
-            id: 6, postmsg: this._state.MainContentPage.textAreaUpDate,
-            likes: 0
-        };
-        this._state.MainContentPage.posts.push(newPost);
-        this._state.MainContentPage.textAreaUpDate = "";
-        _callSubscriber();
-    },
+
     subscribe(observer) {
         _callSubscriber = observer;
     },
