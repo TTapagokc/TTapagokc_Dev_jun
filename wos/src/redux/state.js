@@ -1,6 +1,11 @@
+const ADDPOST = 'ADD-POST';
+const UPDATETEXT = 'UPDATE-TEXT';
+
 let _callSubscriber = () => {
   console.log('Tree render has changed')
 };
+
+
 
 let store = {
     _state: {
@@ -44,6 +49,8 @@ let store = {
         }
     },
 
+
+
     subscribe(observer) {
         _callSubscriber = observer;
     },
@@ -51,7 +58,12 @@ let store = {
         return this._state;},
 };
 
+export const ActionCreatorAddPost = () => {
+    return {type: ADDPOST};
+};
 
-
+export const ActionCreatorUPText = (text) => {
+    return {type: UPDATETEXT, NewText: text};
+};
 
 export default store;
