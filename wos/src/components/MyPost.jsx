@@ -1,6 +1,6 @@
 import React from "react";
 import './MyPost.css'
-import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/state";
+import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/maincontent-reducer";
 
 
 
@@ -25,7 +25,7 @@ let MyPost = (props) => {
         <div>My post
             <div className='MyPost'>
                 <div>
-                    <textarea onChange={textUpdate} ref={newPostElement} value={arValue}/>
+                    <textarea placeholder={'Создать новую запись'} onChange={textUpdate} ref={newPostElement} value={arValue}/>
                 </div>
                 <div className='myB'>
                     <button onClick={addPost}>Add post</button>

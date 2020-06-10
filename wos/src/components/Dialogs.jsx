@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Dialogs.module.css';
 import {NavLink} from "react-router-dom";
-import {ActionCreatorAddMSG, ActionCreatorUPTextDialogs} from "../redux/state";
+import {ActionCreatorAddMSG, ActionCreatorUPTextDialogs} from "../redux/dialog-reducer";
 
 const DialogItem = (props) => {
 
@@ -46,7 +46,8 @@ function Dialogs(props) {
             <div className={s.messages}>
                 {dialogSay}
                 <div>
-                    <textarea onChange={MsgTextOnChange} ref={newMSGElement} value={NewMassage}>New Massage</textarea>
+                    <textarea placeholder={'Веддите сообщение'} onChange={MsgTextOnChange} ref={newMSGElement}
+                              value={NewMassage}>New Massage</textarea>
                     <div>
                         <button onClick={AddMSG}>Send Massage</button>
                     </div>

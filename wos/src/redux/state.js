@@ -1,7 +1,5 @@
-const ADDPOST = 'ADD-POST';
-const UPDATETEXT = 'UPDATE-TEXT';
-const UPDATETEXTDIALOG = 'UPDATE-TEXT-DIALOG';
-const ADDMSGPOST = 'ADD-MSG-POST';
+import MainContentReducer from "./maincontent-reducer";
+import dialogReducer from "./dialog-reducer";
 
 let _callSubscriber = () => {
   console.log('Tree render has changed')
@@ -17,10 +15,10 @@ let store = {
                 {id: 2, likes: 120, postmsg: 'I think its works'},
                 {id: 3, likes: 8, postmsg: 'Ayayayayayayay!!!'},
             ],
-            textAreaUpDate: "test-state",
+            textAreaUpDate: "",
         },
         dialogPage: {
-            dialogNewMassage: 'Веедите сообщение',
+            dialogNewMassage: '',
 
             msgElemets: [
                 {id: 1, say: "hi dude"},
@@ -36,55 +34,24 @@ let store = {
                 {id: 4, name: 'TTapagokc', link: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSNI3RXk3o1h6j20m0_A-mNOVATbObRGJQicHEh3gceO-TQaA-g'},
             ],
         },
+
     },
 
-    dispatch(action) {
-        if (action.type === 'ADD-POST') {
-            let newPost = {
-                id: 6, postmsg: this._state.MainContentPage.textAreaUpDate,
-                likes: 0
-            };
-            this._state.MainContentPage.posts.push(newPost);
-            this._state.MainContentPage.textAreaUpDate = "";
-            _callSubscriber();
-        } else if (action.type === 'UPDATE-TEXT') {
-            this._state.MainContentPage.textAreaUpDate = action.NewText;
-            _callSubscriber();
-        } else if (action.type === 'UPDATE-TEXT-DIALOG') {
-            this._state.dialogPage.dialogNewMassage = action.NewDialogText;
-            _callSubscriber();
-        } else if (action.type === 'ADD-MSG-POST') {
-            let newMSGPost = {
-                id: 6, say: this._state.dialogPage.dialogNewMassage
-            };
-            this._state.dialogPage.msgElemets.push(newMSGPost);
-            this._state.dialogPage.dialogNewMassage = "";
-            _callSubscriber();
-        }
-    },
-
-
-
+    getState() {
+        return this._state;},
     subscribe(observer) {
         _callSubscriber = observer;
     },
-    getState() {
-        return this._state;},
-};
-
-export const ActionCreatorAddPost = () => {
-    return {type: ADDPOST};
-};
-export const ActionCreatorUPText = (text) => {
-    return {type: UPDATETEXT, NewText: text};
-};
-export const ActionCreatorUPTextDialogs = (text) => {
-    return {type: UPDATETEXTDIALOG, NewDialogText: text};
-};
-export const ActionCreatorAddMSG = () => {
-    return {type: ADDMSGPOST};
-};
 
 
+
+    dispatch(action) {
+
+        this._state.MainContentPage = MainContentReducer(this._state.MainContentPage, action);
+        this._state.dialogPage = dialogReducer(this._state.dialogPage, action);
+
+        _callSubscriber();
+    },
+};
 
 export default store;
