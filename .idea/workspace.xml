@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/redux/maincontent-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wos/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/maincontent-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/maincontent-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +69,16 @@
       <workItem from="1583900374602" duration="127000" />
       <workItem from="1583900592208" duration="726000" />
       <workItem from="1591673619511" duration="1007000" />
-      <workItem from="1591780004635" duration="9614000" />
+      <workItem from="1591780004635" duration="13985000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
+      <created>1591790003326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591790003327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

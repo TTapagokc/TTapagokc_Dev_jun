@@ -1,7 +1,18 @@
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 
-const MainContentReducer = (state, action) => {
+let initionalState = {
+
+    posts: [
+        {id: 1, likes: 10, postmsg: 'First try to make :D'},
+        {id: 2, likes: 120, postmsg: 'I think its works'},
+        {id: 3, likes: 8, postmsg: 'Ayayayayayayay!!!'},
+    ],
+    textAreaUpDate: "",
+
+};
+
+const MainContentReducer = (state = initionalState, action) => {
     switch (action.type) {
         case ADD_POST:
             let newPost = {
@@ -18,6 +29,7 @@ const MainContentReducer = (state, action) => {
             return state;
     }
 }
+
 export const ActionCreatorAddPost = () => {
     return {type: ADD_POST};
 };
