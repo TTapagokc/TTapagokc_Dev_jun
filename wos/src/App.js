@@ -5,22 +5,21 @@ import NavBar from './components/NavBar.jsx';
 import MainContent from './components/MainContetn.jsx';
 import Dialogs from "./components/Dialogs";
 import {BrowserRouter, Route} from "react-router-dom";
+import DialogsContainer from "./components/DialogsContainer";
 
 
 function App(props) {
     return (
-            <div className='app-wrapper'>
-                <Header/>
-                <NavBar/>
-                <div className='app-wrapper-content'>
-                    <Route path='/Dialogs' render={() => <Dialogs
-                        dialogPage={props.state.dialogPage}
-                        dispatch={props.dispatch} />}/>
-                    <Route path='/MainContent' render={ () => <MainContent
-                        MainContentPage={props.state.MainContentPage}
-                        dispatch={props.dispatch} />} />
-                </div>
+        <div className='app-wrapper'>
+            <Header/>
+            <NavBar/>
+            <div className='app-wrapper-content'>
+                <Route path='/Dialogs'
+                       render={() => <DialogsContainer store={props.store} />}/>
+                <Route path='/MainContent'
+                       render={() => <MainContent store={props.store} />}/>
             </div>
+        </div>
     );
 }
 

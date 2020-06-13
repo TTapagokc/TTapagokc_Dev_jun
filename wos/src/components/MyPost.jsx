@@ -1,6 +1,7 @@
 import React from "react";
 import './MyPost.css'
 import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/maincontent-reducer";
+import Post from "./Post";
 
 
 
@@ -10,15 +11,14 @@ let MyPost = (props) => {
 
     let textUpdate = () => {
         let text = newPostElement.current.value;
-        //props.updateText(text);
-        let action = ActionCreatorUPText(text);
-        props.dispatch(action);
+        props.updateText(text);
     };
 
     let addPost = () => {
-        //props.craftPost();
-        props.dispatch(ActionCreatorAddPost());
+        props.craftPost();
     };
+
+    let posters = props.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
 
 
     return (
@@ -32,6 +32,7 @@ let MyPost = (props) => {
                 </div>
 
             </div>
+            {posters}
         </div>
     )
 };
