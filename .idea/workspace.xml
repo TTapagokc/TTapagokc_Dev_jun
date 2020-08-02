@@ -26,16 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Add Redux store #42">
-      <change afterPath="$PROJECT_DIR$/wos/src/components/DialogItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/components/DialogMessage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" afterDir="false" />
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store">
+      <change afterPath="$PROJECT_DIR$/wos/src/StoreContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/MainContetn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MainContetn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +57,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wos/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -87,6 +87,8 @@
       <workItem from="1591780004635" duration="14573000" />
       <workItem from="1591889876962" duration="902000" />
       <workItem from="1592004906112" duration="9552000" />
+      <workItem from="1595902463920" duration="430000" />
+      <workItem from="1596346780693" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -135,9 +137,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor and created reducers for react-redux. #41" />
     <MESSAGE value="Add Redux store #42" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Redux store #42" />
+    <MESSAGE value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
+    <option name="LAST_COMMIT_MESSAGE" value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="136" y="172" key="SettingsEditor" timestamp="1595902556536">
+      <screen x="0" y="48" width="1280" height="976" />
+    </state>
+    <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591795215948">
       <screen x="0" y="42" width="1280" height="982" />
     </state>
