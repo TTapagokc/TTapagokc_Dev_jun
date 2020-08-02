@@ -19,20 +19,19 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store">
-      <change afterPath="$PROJECT_DIR$/wos/src/StoreContext.js" afterDir="false" />
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/StoreContext.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/MainContetn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MainContetn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/index.js" afterDir="false" />
     </list>
@@ -50,6 +49,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/TTapagokc/TTapagokc_Dev_jun.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1Yy08euObV0FH3RCS6wR8mIienl" />
   <component name="ProjectViewState">
@@ -88,7 +94,7 @@
       <workItem from="1591889876962" duration="902000" />
       <workItem from="1592004906112" duration="9552000" />
       <workItem from="1595902463920" duration="430000" />
-      <workItem from="1596346780693" duration="3215000" />
+      <workItem from="1596346780693" duration="9630000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -104,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591795099118</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store">
+      <created>1596350003738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596350003738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +134,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -138,20 +151,26 @@
     <MESSAGE value="Refactor and created reducers for react-redux. #41" />
     <MESSAGE value="Add Redux store #42" />
     <MESSAGE value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
-    <option name="LAST_COMMIT_MESSAGE" value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
+    <MESSAGE value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="136" y="172" key="SettingsEditor" timestamp="1595902556536">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1591795215948">
-      <screen x="0" y="42" width="1280" height="982" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596350025793">
+      <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
+    <state x="235" y="275" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596350025793" />
     <state x="302" y="244" key="run.anything.popup" timestamp="1592007263152">
       <screen x="0" y="42" width="1280" height="982" />
     </state>
     <state x="302" y="244" key="run.anything.popup/0.42.1280.982@0.42.1280.982" timestamp="1592007263152" />
+    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup" timestamp="1596353759527">
+      <screen x="0" y="48" width="1280" height="976" />
+    </state>
+    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup/0.48.1280.976@0.48.1280.976" timestamp="1596353759527" />
   </component>
 </project>

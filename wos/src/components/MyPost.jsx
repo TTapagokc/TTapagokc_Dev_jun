@@ -1,13 +1,10 @@
 import React from "react";
 import './MyPost.css'
-import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/maincontent-reducer";
 import Post from "./Post";
-
-
 
 let MyPost = (props) => {
     let newPostElement = React.createRef();
-    let arValue = props.textAreaUpDate; //получение арены-тектса из стейта
+    let arValue = props.MainContentPage.textAreaUpDate; //получение арены-тектса из стейта
 
     let textUpdate = () => {
         let text = newPostElement.current.value;
@@ -18,11 +15,11 @@ let MyPost = (props) => {
         props.craftPost();
     };
 
-    let posters = props.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
+    let posters = props.MainContentPage.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
 
 
     return (
-        <div>My post
+        <div> My post
             <div className='MyPost'>
                 <div>
                     <textarea placeholder={'Создать новую запись'} onChange={textUpdate} ref={newPostElement} value={arValue}/>

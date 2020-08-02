@@ -1,30 +1,25 @@
 import React from "react";
 import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/maincontent-reducer";
 import MyPost from "./MyPost";
-import StoreContext from "../StoreContext";
+import {connect} from "react-redux";
 
 
-let MyPostContainer = () => {
-
-    return (
-        <StoreContext.Consumer>
-            {(store) => {
-                let state = store.getState();
-                let onPostChange = (text) => {
-                    let action = ActionCreatorUPText(text);
-                    store.dispatch(action);
-                };
-                let addPost = () => {
-                    store.dispatch(ActionCreatorAddPost());
-                };
-                return <MyPost updateText={onPostChange}
-                               craftPost={addPost}
-                               posts={state.MainContentPage.posts}
-                               textAreaUpDate={state.MainContentPage.textAreaUpDate}/>
-            }
-            }
-        </StoreContext.Consumer>
-    )
+const mapStateToProps = (state) => {
+    return {
+        MainContentPage: state.MainContentPage
+    }
 };
+const mapDispatchToProps = (dispatch) => {
+    return {
+        updateText: (text) => {
+            dispatch(ActionCreatorUPText(text));
+        },
+        craftPost: () => {
+            dispatch(ActionCreatorAddPost());
+        }
+    }
+};
+
+const MyPostContainer = connect(mapStateToProps, mapDispatchToProps)(MyPost);
 
 export default MyPostContainer;
