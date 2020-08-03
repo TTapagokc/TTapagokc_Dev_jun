@@ -19,15 +19,17 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="stateCopy (ref) #48&#10;Reducer's refactor copy state">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/redux/maincontent-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/maincontent-reducer.js" afterDir="false" />
     </list>
@@ -91,7 +93,8 @@
       <workItem from="1592004906112" duration="9552000" />
       <workItem from="1595902463920" duration="430000" />
       <workItem from="1596346780693" duration="10454000" />
-      <workItem from="1596398633230" duration="2637000" />
+      <workItem from="1596398633230" duration="2951000" />
+      <workItem from="1596418692492" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -121,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596357785680</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="stateCopy #47&#10;Deep state copy in (reducer's)&#10;for flux.">
+      <created>1596401537177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596401537177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +148,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -156,18 +166,20 @@
     <MESSAGE value="Add Redux store #42" />
     <MESSAGE value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
     <MESSAGE value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
+    <MESSAGE value="stateCopy #47&#10;Deep state copy in (reducer's)&#10;for flux." />
+    <MESSAGE value="stateCopy (ref) #48&#10;Reducer's refactor copy state" />
+    <option name="LAST_COMMIT_MESSAGE" value="stateCopy (ref) #48&#10;Reducer's refactor copy state" />
   </component>
   <component name="WindowStateProjectService">
     <state x="136" y="172" key="SettingsEditor" timestamp="1595902556536">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596357788755">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596401543218">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596357788755" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596401543218" />
     <state x="302" y="244" key="run.anything.popup" timestamp="1592007263152">
       <screen x="0" y="42" width="1280" height="982" />
     </state>

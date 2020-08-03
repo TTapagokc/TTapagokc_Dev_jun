@@ -1,6 +1,5 @@
 import React from "react";
 import s from './Dialogs.module.css';
-import {ActionCreatorAddMSG, ActionCreatorUPTextDialogs} from "../redux/dialog-reducer";
 import DialogItem from "./DialogItem";
 import Message from "./DialogMessage";
 
@@ -9,9 +8,9 @@ const Dialogs = (props) => {
 
     let state = props.dialogPage;
     /*Обработка масивов даных*/
-    let dialogElemnts = state.dialogData.map(dialog => <DialogItem link={dialog.link} name={dialog.name}
+    let dialogElemnts = state.dialogData.map(dialog => <DialogItem link={dialog.link} name={dialog.name} key={dialog.id}
                                                                    id={dialog.id}/>);
-    let dialogSay = state.msgElemets.map(msg => <Message say={msg.say}/>);
+    let dialogSay = state.msgElemets.map(msg => <Message say={msg.say} key={msg.id} />);
 
     let NewMassage = state.dialogNewMassage; //Текст ериа из BLL
     let newMSGElement = React.createRef(); //Создание ref

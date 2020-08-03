@@ -19,16 +19,17 @@ const MainContentReducer = (state = initionalState, action) => {
                 id: 6, postmsg: state.textAreaUpDate,
                 likes: 0
             };
-            let stateCopy = {...state};
-            stateCopy.posts = [...state.posts];
-            stateCopy.posts.push(newPost);
-            stateCopy.textAreaUpDate = "";
-            return stateCopy;
+            return {
+                ...state,
+                posts: [...state.posts, newPost],
+                textAreaUpDate: ""
+            };
         }
         case UPDATE_NEW_POST_TEXT: {
-            let stateCopy = {...state}
-            stateCopy.textAreaUpDate = action.NewText;
-            return stateCopy;
+            return {
+                ...state,
+                textAreaUpDate: action.NewText
+            }
         }
         default:
             return state;

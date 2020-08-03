@@ -15,7 +15,7 @@ let MyPost = (props) => {
         props.craftPost();
     };
 
-    let posters = props.MainContentPage.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
+    let posters = props.MainContentPage.posts.map ( p => <Post masage={p.postmsg} key={p.id} likeNum={p.likes}/>);
 
 
     return (
