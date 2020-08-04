@@ -5,6 +5,8 @@ import NavBar from './components/NavBar.jsx';
 import MainContent from './components/MainContetn.jsx';
 import DialogsContainer from "./components/DialogsContainer";
 import {Route} from "react-router-dom";
+import UsersContainer from "./components/UsersContainer";
+
 
 
 function App() {
@@ -13,10 +15,12 @@ function App() {
             <Header/>
             <NavBar/>
             <div className='app-wrapper-content'>
-                <Route path='/Dialogs'
+                <Route path='/dialogs'
                        render={() => <DialogsContainer />}/>
-                <Route path='/MainContent'
+                <Route path='/mainContent'
                        render={() => <MainContent />}/>
+                <Route path='/users'
+                       render={() => <UsersContainer />}/>
             </div>
         </div>
     );
