@@ -3,16 +3,17 @@ import './users.css';
 import * as axios from 'axios';
 import userAvatar from '../img/userNoAvatar.png'
 
-const Users = (props) => {
-    if (props.users.length === 0) {
+class Users extends React.Component {
+    constructor(props) {
+        super(props);
         axios.get('https://social-network.samuraijs.com/api/1.0/users').then(response => {
-            props.setUsers(response.data.items);
+            this.props.setUsers(response.data.items);
         })
     }
 
-    return (
-        <div className='usersBox'>
-            {props.users.map(u =>
+    render() {
+        return  <div className='usersBox'>
+            {this.props.users.map(u =>
                 <div>
                     <div>
                         <img className='profileImg' src={u.photos.smal != null ? u.photos.smal : userAvatar}
@@ -20,10 +21,10 @@ const Users = (props) => {
                         <div>
                             {u.followed
                                 ? <button onClick={() => {
-                                    props.unfollow(u.id)
+                                    this.props.unfollow(u.id)
                                 }}>Unfollow</button>
                                 : <button onClick={() => {
-                                    props.follow(u.id)
+                                    this.props.follow(u.id)
                                 }}>Follow</button>}
                         </div>
                         <div>
@@ -37,7 +38,9 @@ const Users = (props) => {
                     </div>
                 </div>)}
         </div>
-    )
-};
+
+    }
+}
+
 
 export default Users;

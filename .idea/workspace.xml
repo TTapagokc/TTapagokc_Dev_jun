@@ -26,11 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Users page #49&#10;- Added user's page&#10;- Added UserReducer&#10;Follow/UnFollow button&#10;SetUsers Logic">
-      <change afterPath="$PROJECT_DIR$/wos/src/img/userNoAvatar.png" afterDir="false" />
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Users axios get respinse #49-51&#10;-Removed local state&#10;-Added axios API request">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +109,8 @@
       <workItem from="1596398633230" duration="2951000" />
       <workItem from="1596418692492" duration="6643000" />
       <workItem from="1596510612641" duration="13298000" />
-      <workItem from="1596620912722" duration="2121000" />
+      <workItem from="1596620912722" duration="3728000" />
+      <workItem from="1596677968529" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596522828460</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Users axios get respinse #49-51&#10;-Removed local state&#10;-Added axios API request">
+      <created>1596624475997</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596624475998</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +206,8 @@
     <MESSAGE value="stateCopy #47&#10;Deep state copy in (reducer's)&#10;for flux." />
     <MESSAGE value="stateCopy (ref) #48&#10;Reducer's refactor copy state" />
     <MESSAGE value="Users page #49&#10;- Added user's page&#10;- Added UserReducer&#10;Follow/UnFollow button&#10;SetUsers Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Users page #49&#10;- Added user's page&#10;- Added UserReducer&#10;Follow/UnFollow button&#10;SetUsers Logic" />
+    <MESSAGE value="Users axios get respinse #49-51&#10;-Removed local state&#10;-Added axios API request" />
+    <option name="LAST_COMMIT_MESSAGE" value="Users axios get respinse #49-51&#10;-Removed local state&#10;-Added axios API request" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -212,11 +218,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596522836145">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596624480052">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596522836145" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596624480052" />
     <state x="302" y="244" key="run.anything.popup" timestamp="1592007263152">
       <screen x="0" y="42" width="1280" height="982" />
     </state>
