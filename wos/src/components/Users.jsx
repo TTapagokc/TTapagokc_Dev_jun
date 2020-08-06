@@ -4,8 +4,9 @@ import * as axios from 'axios';
 import userAvatar from '../img/userNoAvatar.png'
 
 class Users extends React.Component {
-    constructor(props) {
-        super(props);
+
+    //get request on server for set users on state when component will be mount
+    componentDidMount() {
         axios.get('https://social-network.samuraijs.com/api/1.0/users').then(response => {
             this.props.setUsers(response.data.items);
         })
