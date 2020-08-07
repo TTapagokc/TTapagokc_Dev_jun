@@ -25,8 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Class component #52-53&#10;Ref - Users =&gt; Class Users">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Class component(didMount) #54">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/users.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/users.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +112,8 @@
       <workItem from="1596418692492" duration="6643000" />
       <workItem from="1596510612641" duration="13298000" />
       <workItem from="1596620912722" duration="3728000" />
-      <workItem from="1596677968529" duration="2876000" />
+      <workItem from="1596677968529" duration="3691000" />
+      <workItem from="1596757527222" duration="9272000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -173,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596682194094</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Class component(didMount) #54">
+      <created>1596683266043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596683266043</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +225,8 @@
     <MESSAGE value="Users page #49&#10;- Added user's page&#10;- Added UserReducer&#10;Follow/UnFollow button&#10;SetUsers Logic" />
     <MESSAGE value="Users axios get respinse #49-51&#10;-Removed local state&#10;-Added axios API request" />
     <MESSAGE value="Class component #52-53&#10;Ref - Users =&gt; Class Users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class component #52-53&#10;Ref - Users =&gt; Class Users" />
+    <MESSAGE value="Class component(didMount) #54" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class component(didMount) #54" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -224,18 +237,18 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596682197814">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596683268083">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596682197814" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596683268083" />
     <state x="302" y="244" key="run.anything.popup" timestamp="1592007263152">
       <screen x="0" y="42" width="1280" height="982" />
     </state>
     <state x="302" y="244" key="run.anything.popup/0.42.1280.982@0.42.1280.982" timestamp="1592007263152" />
-    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup" timestamp="1596353759527">
+    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup" timestamp="1596764171386">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
-    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup/0.48.1280.976@0.48.1280.976" timestamp="1596353759527" />
+    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup/0.48.1280.976@0.48.1280.976" timestamp="1596764171386" />
   </component>
 </project>
