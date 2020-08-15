@@ -19,18 +19,17 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Class component(didMount) #54">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Users pages #55&#10;Added full users from server&#10;Added users pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/users.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/users.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,14 @@
       <workItem from="1596510612641" duration="13298000" />
       <workItem from="1596620912722" duration="3728000" />
       <workItem from="1596677968529" duration="3691000" />
-      <workItem from="1596757527222" duration="9272000" />
+      <workItem from="1596757527222" duration="10065000" />
+      <workItem from="1596771968304" duration="428000" />
+      <workItem from="1596843814135" duration="597000" />
+      <workItem from="1596866036384" duration="802000" />
+      <workItem from="1597132006746" duration="1172000" />
+      <workItem from="1597319892311" duration="599000" />
+      <workItem from="1597329708344" duration="599000" />
+      <workItem from="1597473137532" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -185,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596683266043</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Users pages #55&#10;Added full users from server&#10;Added users pages">
+      <created>1596769927426</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596769927426</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +215,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -226,7 +239,8 @@
     <MESSAGE value="Users axios get respinse #49-51&#10;-Removed local state&#10;-Added axios API request" />
     <MESSAGE value="Class component #52-53&#10;Ref - Users =&gt; Class Users" />
     <MESSAGE value="Class component(didMount) #54" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class component(didMount) #54" />
+    <MESSAGE value="Users pages #55&#10;Added full users from server&#10;Added users pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Users pages #55&#10;Added full users from server&#10;Added users pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -237,11 +251,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596683268083">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1596769933008">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596683268083" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1596769933008" />
     <state x="302" y="244" key="run.anything.popup" timestamp="1592007263152">
       <screen x="0" y="42" width="1280" height="982" />
     </state>

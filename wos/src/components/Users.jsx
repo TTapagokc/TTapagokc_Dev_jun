@@ -1,23 +1,7 @@
 import React from 'react'
-import styles from './users.css';
-import * as axios from 'axios';
 import userAvatar from '../img/userNoAvatar.png'
 
 class Users extends React.Component {
-    //get request on server for set users on state when component will be mount
-    componentDidMount() {
-        axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.usersPageNumber}&count=${this.props.maxUsersOnPage}`).then(response => {
-            this.props.setUsers(response.data.items);
-            this.props.setUsersTotalCount(response.data.totalCount);
-        })
-    }
-
-    onPageChanged = (pageNumber)=> {
-        this.props.setCurentPage(pageNumber);
-        axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${pageNumber}&count=${this.props.maxUsersOnPage}`).then(response => {
-            this.props.setUsers(response.data.items);
-        })
-    }
 
     render() {
 
@@ -31,7 +15,7 @@ class Users extends React.Component {
             {pages.map(
                 p => {
                     return <span className={this.props.usersPageNumber === p && 'activePage'}
-                                 onClick={() => this.onPageChanged(p)}> {p} </span>
+                                 onClick={() => this.props.onPageChanged(p)}> {p} </span>
                 }
             )}
 
