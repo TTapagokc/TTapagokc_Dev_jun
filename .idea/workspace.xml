@@ -27,10 +27,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Preloader #57">
-      <change afterPath="$PROJECT_DIR$/wos/src/components/Preloader/Preloader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/img/Preloader.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" afterDir="false" />
     </list>
@@ -127,7 +124,7 @@
       <workItem from="1597493686241" duration="312000" />
       <workItem from="1597500243337" duration="196000" />
       <workItem from="1597501401458" duration="924000" />
-      <workItem from="1597582818343" duration="2877000" />
+      <workItem from="1597582818343" duration="4407000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597477651227</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Preloader #57">
+      <created>1597585755111</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597585755111</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,11 +272,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597477653963">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597585760112">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1597477653963" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1597585760112" />
     <state x="302" y="249" key="run.anything.popup" timestamp="1597481872486">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
