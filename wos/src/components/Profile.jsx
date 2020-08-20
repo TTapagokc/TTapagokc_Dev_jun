@@ -1,13 +1,13 @@
-import './MainContetn.css';
+import './Profile.css';
 import React from 'react';
 import MyPostContainer from "./MyPostContainer";
 
 
 
-const MainContent = () => {
+const Profile = () => {
 
     ///Масив обработки базы через .map
-    // let posters = props.MainContentPage.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
+    // let posters = props.ProfilePage.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
 
     return (
         <div className='MainContent'>Мой профиль
@@ -18,4 +18,4 @@ const MainContent = () => {
     );
 }
 
-export default MainContent;
+export default Profile;

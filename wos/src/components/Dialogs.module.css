@@ -10,7 +10,7 @@
 
 .dialogItems .active {
     font-size: 24px;
-    color: firebrick;
+    color: yellow;
 }
 
 .messages {
@@ -29,5 +29,8 @@
 
 .activeLink {
     font-size: 24px;
-    color: firebrick;
+    color: yellow;
+}
+a {
+    text-decoration: none;
 }

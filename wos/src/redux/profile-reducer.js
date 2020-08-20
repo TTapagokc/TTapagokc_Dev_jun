@@ -12,7 +12,7 @@ let initionalState = {
 
 };
 
-const MainContentReducer = (state = initionalState, action) => {
+const ProfileReducer = (state = initionalState, action) => {
     switch (action.type) {
         case ADD_POST: {
             let newPost = {
@@ -43,4 +43,4 @@ export const ActionCreatorUPText = (text) => {
     return {type: UPDATE_NEW_POST_TEXT, NewText: text};
 };
 
-export default MainContentReducer;
+export default ProfileReducer;

@@ -1,4 +1,4 @@
-import MainContentReducer from "./maincontent-reducer";
+import ProfileReducer from "./profile-reducer";
 import dialogReducer from "./dialog-reducer";
 
 let _callSubscriber = () => {
@@ -47,7 +47,7 @@ let store = {
 
     dispatch(action) {
 
-        this._state.MainContentPage = MainContentReducer(this._state.MainContentPage, action);
+        this._state.MainContentPage = ProfileReducer(this._state.MainContentPage, action);
         this._state.dialogPage = dialogReducer(this._state.dialogPage, action);
 
         _callSubscriber();

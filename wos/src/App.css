@@ -2,6 +2,8 @@
   display: grid;
   margin: 0 auto;
 
+  background-color: #bdbeb5;
+
   grid-template-areas:
   "h h"
   "n c";
@@ -13,5 +15,6 @@
 
 .app-wrapper-content {
   grid-area: c;
-  background-color: yellow;
+  padding: 16px;
+  background-color: #eeeeee;
 }

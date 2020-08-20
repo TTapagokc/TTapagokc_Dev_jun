@@ -26,10 +26,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Preloader #57">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="mapDispatchToProps (ref) #58">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MainContetn.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MainContetn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/maincontent-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +135,10 @@
       <workItem from="1597493686241" duration="312000" />
       <workItem from="1597500243337" duration="196000" />
       <workItem from="1597501401458" duration="924000" />
-      <workItem from="1597582818343" duration="4407000" />
+      <workItem from="1597582818343" duration="5648000" />
+      <workItem from="1597931855052" duration="633000" />
+      <workItem from="1597942263120" duration="258000" />
+      <workItem from="1597956362279" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -217,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597585755111</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="mapDispatchToProps (ref) #58">
+      <created>1597589648352</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597589648352</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +282,8 @@
     <MESSAGE value="Users pages #55&#10;Added full users from server&#10;Added users pages" />
     <MESSAGE value="UsersContainer with API #56" />
     <MESSAGE value="Preloader #57" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preloader #57" />
+    <MESSAGE value="mapDispatchToProps (ref) #58" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapDispatchToProps (ref) #58" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -272,11 +294,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597585760112">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1597589651266">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1597585760112" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1597589651266" />
     <state x="302" y="249" key="run.anything.popup" timestamp="1597481872486">
       <screen x="0" y="48" width="1280" height="976" />
     </state>

@@ -1,12 +1,12 @@
 import React from "react";
-import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/maincontent-reducer";
+import {ActionCreatorAddPost, ActionCreatorUPText} from "../redux/profile-reducer";
 import MyPost from "./MyPost";
 import {connect} from "react-redux";
 
 
 const mapStateToProps = (state) => {
     return {
-        MainContentPage: state.MainContentPage
+        ProfilePage: state.ProfilePage
     }
 };
 const mapDispatchToProps = (dispatch) => {
