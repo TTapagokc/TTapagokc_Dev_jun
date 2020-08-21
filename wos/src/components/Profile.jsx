@@ -1,19 +1,33 @@
 import './Profile.css';
 import React from 'react';
 import MyPostContainer from "./MyPostContainer";
+import Preloader from "./Preloader/Preloader";
 
 
+const Profile = (props) => {
 
-const Profile = () => {
-
-    ///Масив обработки базы через .map
-    // let posters = props.ProfilePage.posts.map ( p => <Post masage={p.postmsg} likeNum={p.likes}/>);
+    if (!props.profile) {
+        return <Preloader/>
+    }
 
     return (
-        <div className='MainContent'>Мой профиль
-            <img alt='random wallpaper' src='https://c4.wallpaperflare.com/wallpaper/246/739/689/digital-digital-art-artwork-illustration-abstract-hd-wallpaper-thumb.jpg'/>
-            <MyPostContainer />
-
+        <div className='MainContent'>
+            <img src={props.profile.photos.large} alt="pa"/>
+            <div className='profileInfo'>
+                <div>Full Name: {props.profile.fullName}.</div>
+                <div>About me: {props.profile.aboutMe}.</div>
+                <div>Looking For A Job: {props.profile.lookingForAJob ? 'Yes' : 'No'}.</div>
+                <div>Job Description: {props.profile.lookingForAJobDescription} </div>
+                <div>
+                    Contacts:
+                    <br/> <a href={props.profile.contacts.facebook}>Facebook</a>
+                    <br/> <a href={props.profile.contacts.vk}>Vk</a>
+                    <br/> <a href={props.profile.contacts.twitter}>Twitter</a>
+                    <br/> <a href={props.profile.contacts.instagram}>Instagram</a>
+                    <br/> <a href={props.profile.contacts.github}>Github</a>
+                </div>
+            </div>
+            <MyPostContainer/>
         </div>
     );
 }
