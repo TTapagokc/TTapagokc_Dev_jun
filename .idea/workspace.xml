@@ -19,23 +19,19 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Auth/me Login #61&#10;- Header login block (cookie)">
-      <change afterPath="$PROJECT_DIR$/wos/src/components/HeaderContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wos/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/auth-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598014482831</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Auth/me Login #61&#10;- Header login block (cookie)">
+      <created>1599026528902</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599026528902</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +279,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -322,11 +325,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598014492380">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599026554248">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1598014492380" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1599026554248" />
     <state x="302" y="249" key="run.anything.popup" timestamp="1597481872486">
       <screen x="0" y="48" width="1280" height="976" />
     </state>

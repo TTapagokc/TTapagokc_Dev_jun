@@ -2,7 +2,7 @@ const SET_AUTH_USER_DATA = 'SET_AUTH_USER_DATA';
 
 
 let initionalState = {
-    userId: null,
+    id: null,
     login: null,
     email: null,
     isAuth: false,
