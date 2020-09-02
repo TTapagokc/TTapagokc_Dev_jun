@@ -1,19 +1,19 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header.jsx';
-import NavBar from './components/NavBar.jsx';
 import DialogsContainer from "./components/DialogsContainer";
 import {Route} from "react-router-dom";
 import UsersContainer from "./components/UsersContainer";
 import ProfileContainer from "./components/ProfileContainer";
+import NavBar from "./components/NavBar";
+import HeaderContainer from "./components/HeaderContainer";
 
 
 
 function App() {
     return (
         <div className='app-wrapper'>
-            <Header/>
-            <NavBar/>
+            <HeaderContainer/>
+            <NavBar />
             <div className='app-wrapper-content'>
                 <Route path='/dialogs'
                        render={() => <DialogsContainer />}/>

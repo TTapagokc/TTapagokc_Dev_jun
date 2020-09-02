@@ -9,3 +9,8 @@
 .header img {
   width: 50px;
 }
+.login-block {
+  color: white;
+  float: right;
+  padding: 14px;
+}

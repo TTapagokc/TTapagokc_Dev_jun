@@ -57,28 +57,6 @@ let mapStateToProps = (state) => {
     }
 
 };
-// let mapDispatchToProps = (dispatch) => {
-//     return {
-//         follow: (userId) => {
-//             dispatch(followAC(userId))
-//         },
-//         unfollow: (userId) => {
-//             dispatch(unfollowAC(userId))
-//         },
-//         setUsers: (users) => {
-//             dispatch(setUsersAC(users))
-//         },
-//         setCurentPage: (numberPage) => {
-//             dispatch(setCurentPageAC(numberPage))
-//         },
-//         setUsersTotalCount: (totalUsers) => {
-//             dispatch(setUsersTotalCountAC(totalUsers))
-//         },
-//         isFetchingToggle: (toggle) => {
-//             dispatch(isFetchingAC(toggle))
-//         },
-//     }
-// };
 
 
 export default connect(mapStateToProps, {
