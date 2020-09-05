@@ -2,6 +2,7 @@ import './Profile.css';
 import React from 'react';
 import MyPostContainer from "./MyPostContainer";
 import Preloader from "./Preloader/Preloader";
+import userAvatar from "../img/userNoAvatar.png";
 
 
 const Profile = (props) => {
@@ -12,7 +13,7 @@ const Profile = (props) => {
 
     return (
         <div className='MainContent'>
-            <img src={props.profile.photos.large} alt="pa"/>
+            <img src={props.profile.photos.large != null ? props.profile.photos.large : userAvatar} alt="pa"/>
             <div className='profileInfo'>
                 <div>Full Name: {props.profile.fullName}.</div>
                 <div>About me: {props.profile.aboutMe}.</div>
