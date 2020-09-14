@@ -6,7 +6,7 @@ const Post = (props) => {
 
         <div>
             <div className='Ava'>
-                <img src='https://images4.alphacoders.com/264/264528.jpg'/>
+                <img alt='post item' src='https://images4.alphacoders.com/264/264528.jpg'/>
                 <span>{props.masage}</span>
                 <div>{props.likeNum} likes</div>
             </div>

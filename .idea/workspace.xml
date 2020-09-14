@@ -26,10 +26,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Axios API refactor #63&#10;+ axios.create&#10;+ UserAPI.getUsers">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Disabled button when follow/unfollow #64">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +145,9 @@
       <workItem from="1599231890893" duration="761000" />
       <workItem from="1599332745429" duration="8266000" />
       <workItem from="1599370135154" duration="599000" />
-      <workItem from="1599431874116" duration="2146000" />
+      <workItem from="1599431874116" duration="4575000" />
+      <workItem from="1599506273014" duration="170000" />
+      <workItem from="1600080470563" duration="8190000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -281,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599341067089</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Disabled button when follow/unfollow #64">
+      <created>1599434238843</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599434238843</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +357,8 @@
     <MESSAGE value="Ref #61+&#10;-Default Profile take cookie userId" />
     <MESSAGE value="Follow/unfollow API #62&#10;- Added the ability to send requests to the server follow/unfollow with save user data." />
     <MESSAGE value="Axios API refactor #63&#10;+ axios.create&#10;+ UserAPI.getUsers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Axios API refactor #63&#10;+ axios.create&#10;+ UserAPI.getUsers" />
+    <MESSAGE value="Disabled button when follow/unfollow #64" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disabled button when follow/unfollow #64" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -353,15 +369,19 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="98" y="148" width="1084" height="778" key="DiffContextDialog/0.48.1280.976@0.48.1280.976" timestamp="1599018914843" />
-    <state x="136" y="172" key="SettingsEditor" timestamp="1595902556536">
+    <state x="174" y="109" key="SettingsEditor" timestamp="1600082569473">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
-    <state x="136" y="172" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1595902556536" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599341070487">
+    <state x="174" y="109" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1600082569473" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599434245518">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1599341070487" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1599434245518" />
+    <state x="-261" y="160" width="1261" height="934" key="dock-window-1" timestamp="1600089121406">
+      <screen x="0" y="48" width="1280" height="976" />
+    </state>
+    <state x="-261" y="160" width="1261" height="934" key="dock-window-1/0.48.1280.976@0.48.1280.976" timestamp="1600089121406" />
     <state x="302" y="249" key="run.anything.popup" timestamp="1597481872486">
       <screen x="0" y="48" width="1280" height="976" />
     </state>

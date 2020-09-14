@@ -14,5 +14,12 @@ export const UserAPI = {
             .then(response => {
                 return response.data;
             })
-    }
+    },
+    follow(userId) {
+        return instans.delete(`follow/${userId}`)
+    },
+
+    unfollow(userId) {
+        return instans.post(`follow/${userId}`)
+    },
 }
