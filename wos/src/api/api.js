@@ -22,4 +22,13 @@ export const UserAPI = {
     unfollow(userId) {
         return instans.post(`follow/${userId}`)
     },
+    getProfile(userId) {
+        return instans.get(`profile/` + userId)
+    },
+}
+
+export const AuthAPI = {
+     me() {
+       return instans.get(`auth/me`)
+    }
 }
