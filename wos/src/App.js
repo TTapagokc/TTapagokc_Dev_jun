@@ -6,6 +6,7 @@ import UsersContainer from "./components/UsersContainer";
 import ProfileContainer from "./components/ProfileContainer";
 import NavBar from "./components/NavBar";
 import HeaderContainer from "./components/HeaderContainer";
+import LoginPage from "./components/LoginPage";
 
 
 
@@ -21,6 +22,8 @@ function App() {
                        render={() => <ProfileContainer />}/>
                 <Route path='/users'
                        render={() => <UsersContainer />}/>
+                <Route path='/login'
+                       render={() => <LoginPage />}/>
             </div>
         </div>
     );

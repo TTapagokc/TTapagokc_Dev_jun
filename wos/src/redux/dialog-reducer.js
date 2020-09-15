@@ -47,11 +47,11 @@ const dialogReducer = (state = initionalState, action) => {
 
     }
 };
-
-export const ActionCreatorUPTextDialogs = (text) => {
+//Action Creators
+export const UPTextDialogs = (text) => {
     return {type: UPDATE_TEXT_DIALOG, NewDialogText: text};
 };
-export const ActionCreatorAddMSG = () => {
+export const AddMSG = () => {
     return {type: ADD_MSG_POST};
 };
 
