@@ -19,23 +19,19 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Thunk Profile &amp; Header #67 (ref)&#10;+ getUserAuth thunk &amp; API (Dal)&#10;+ getProfile thunk &amp; API (Dal)">
-      <change afterPath="$PROJECT_DIR$/wos/src/components/LoginPage.jsx" afterDir="false" />
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="HOC #69&#10;- WithAuthRedirect">
+      <change afterPath="$PROJECT_DIR$/wos/src/hoc/withAuthRedirect.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/dialog-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,16 +73,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/wos/src" />
-      <recent name="$PROJECT_DIR$/wos" />
-      <recent name="$PROJECT_DIR$/wos/src/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wos/src/components" />
       <recent name="$PROJECT_DIR$/wos/src/redux" />
       <recent name="$PROJECT_DIR$/wos/src/img" />
       <recent name="$PROJECT_DIR$/wos/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wos/src" />
+      <recent name="$PROJECT_DIR$/wos" />
+      <recent name="$PROJECT_DIR$/wos/src/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -147,7 +143,10 @@
       <workItem from="1599431874116" duration="4575000" />
       <workItem from="1599506273014" duration="170000" />
       <workItem from="1600080470563" duration="9473000" />
-      <workItem from="1600143000690" duration="7466000" />
+      <workItem from="1600143000690" duration="8313000" />
+      <workItem from="1600160801710" duration="2551000" />
+      <workItem from="1600250962439" duration="997000" />
+      <workItem from="1600402882289" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -310,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600146601690</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Redirect to login #68 &#10;+ Profile&#10;+ Dialogs">
+      <created>1600151291216</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600151291216</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +343,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -374,7 +380,9 @@
     <MESSAGE value="Disabled button when follow/unfollow #64" />
     <MESSAGE value="Thunk Users #65-66&#10;Added 'thunk-redux' &#10;Added applyMiddleware" />
     <MESSAGE value="Thunk Profile &amp; Header #67 (ref)&#10;+ getUserAuth thunk &amp; API (Dal)&#10;+ getProfile thunk &amp; API (Dal)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thunk Profile &amp; Header #67 (ref)&#10;+ getUserAuth thunk &amp; API (Dal)&#10;+ getProfile thunk &amp; API (Dal)" />
+    <MESSAGE value="Redirect to login #68 &#10;+ Profile&#10;+ Dialogs" />
+    <MESSAGE value="HOC #69&#10;- WithAuthRedirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="HOC #69&#10;- WithAuthRedirect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -393,11 +401,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="174" y="109" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1600082569473" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600146604118">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600151368912">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600146604118" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600151368912" />
     <state x="-261" y="160" width="1261" height="934" key="dock-window-1" timestamp="1600089121406">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
