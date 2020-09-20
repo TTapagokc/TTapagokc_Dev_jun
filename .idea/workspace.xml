@@ -26,11 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="HOC #69&#10;- WithAuthRedirect">
-      <change afterPath="$PROJECT_DIR$/wos/src/hoc/withAuthRedirect.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/MyPostContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +143,8 @@
       <workItem from="1600143000690" duration="8313000" />
       <workItem from="1600160801710" duration="2551000" />
       <workItem from="1600250962439" duration="997000" />
-      <workItem from="1600402882289" duration="3127000" />
+      <workItem from="1600402882289" duration="3749000" />
+      <workItem from="1600586890158" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600151291216</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="HOC #69&#10;- WithAuthRedirect">
+      <created>1600408124339</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600408124339</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,11 +406,11 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="174" y="109" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1600082569473" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600151368912">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600408127150">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600151368912" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600408127150" />
     <state x="-261" y="160" width="1261" height="934" key="dock-window-1" timestamp="1600089121406">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
