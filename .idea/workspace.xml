@@ -25,10 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="HOC #69&#10;- WithAuthRedirect">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)">
+      <change afterPath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Yy08euObV0FH3RCS6wR8mIienl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -144,7 +148,7 @@
       <workItem from="1600160801710" duration="2551000" />
       <workItem from="1600250962439" duration="997000" />
       <workItem from="1600402882289" duration="3749000" />
-      <workItem from="1600586890158" duration="1340000" />
+      <workItem from="1600586890158" duration="6906000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -321,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600408124339</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)">
+      <created>1600588325899</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1600588325899</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +373,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor and created reducers for react-redux. #41" />
     <MESSAGE value="Add Redux store #42" />
     <MESSAGE value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
     <MESSAGE value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
@@ -387,7 +397,8 @@
     <MESSAGE value="Thunk Profile &amp; Header #67 (ref)&#10;+ getUserAuth thunk &amp; API (Dal)&#10;+ getProfile thunk &amp; API (Dal)" />
     <MESSAGE value="Redirect to login #68 &#10;+ Profile&#10;+ Dialogs" />
     <MESSAGE value="HOC #69&#10;- WithAuthRedirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="HOC #69&#10;- WithAuthRedirect" />
+    <MESSAGE value="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
@@ -406,11 +417,10 @@
       <screen x="0" y="48" width="1280" height="976" />
     </state>
     <state x="174" y="109" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1600082569473" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600408127150">
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600588330307">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
-    <state x="235" y="270" width="804" height="528" key="Vcs.Push.Dialog.v2/0.42.1280.982@0.42.1280.982" timestamp="1591795215948" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600408127150" />
+    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600588330306" />
     <state x="-261" y="160" width="1261" height="934" key="dock-window-1" timestamp="1600089121406">
       <screen x="0" y="48" width="1280" height="976" />
     </state>
