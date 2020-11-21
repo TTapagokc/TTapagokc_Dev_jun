@@ -25,11 +25,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)">
-      <change afterPath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" afterDir="false" />
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Local state/status API request #73 (WIP)&#10;Added status change function.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/LoginPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="TTapagokc &lt;61249233+ttapagokc@users.noreply.github.com&gt;" />
+        <option value="TTapagokc" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -69,6 +79,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wos/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -149,6 +165,9 @@
       <workItem from="1600250962439" duration="997000" />
       <workItem from="1600402882289" duration="3749000" />
       <workItem from="1600586890158" duration="6906000" />
+      <workItem from="1605869700368" duration="36000" />
+      <workItem from="1605870019935" duration="2004000" />
+      <workItem from="1605907849480" duration="9882000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -373,7 +392,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Redux store #42" />
     <MESSAGE value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
     <MESSAGE value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
     <MESSAGE value="stateCopy #47&#10;Deep state copy in (reducer's)&#10;for flux." />
@@ -398,41 +416,7 @@
     <MESSAGE value="Redirect to login #68 &#10;+ Profile&#10;+ Dialogs" />
     <MESSAGE value="HOC #69&#10;- WithAuthRedirect" />
     <MESSAGE value="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596623587598">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="98" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.48.1280.976@0.48.1280.976" timestamp="1596623587598" />
-    <state x="98" y="148" width="1084" height="778" key="DiffContextDialog" timestamp="1599018914843">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="98" y="148" width="1084" height="778" key="DiffContextDialog/0.48.1280.976@0.48.1280.976" timestamp="1599018914843" />
-    <state x="397" y="220" width="480" height="633" key="RollbackChangesDialog" timestamp="1600149155825">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="397" y="220" width="480" height="633" key="RollbackChangesDialog/0.48.1280.976@0.48.1280.976" timestamp="1600149155825" />
-    <state x="174" y="109" key="SettingsEditor" timestamp="1600082569473">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="174" y="109" key="SettingsEditor/0.48.1280.976@0.48.1280.976" timestamp="1600082569473" />
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600588330307">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="235" y="275" width="804" height="528" key="Vcs.Push.Dialog.v2/0.48.1280.976@0.48.1280.976" timestamp="1600588330306" />
-    <state x="-261" y="160" width="1261" height="934" key="dock-window-1" timestamp="1600089121406">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="-261" y="160" width="1261" height="934" key="dock-window-1/0.48.1280.976@0.48.1280.976" timestamp="1600089121406" />
-    <state x="302" y="249" key="run.anything.popup" timestamp="1597481872486">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="302" y="244" key="run.anything.popup/0.42.1280.982@0.42.1280.982" timestamp="1592007263152" />
-    <state x="302" y="249" key="run.anything.popup/0.48.1280.976@0.48.1280.976" timestamp="1597481872486" />
-    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup" timestamp="1599340958337">
-      <screen x="0" y="48" width="1280" height="976" />
-    </state>
-    <state x="303" y="261" width="672" height="160" key="search.everywhere.popup/0.48.1280.976@0.48.1280.976" timestamp="1599340958337" />
+    <MESSAGE value="Local state/status API request #73 (WIP)&#10;Added status change function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Local state/status API request #73 (WIP)&#10;Added status change function." />
   </component>
 </project>

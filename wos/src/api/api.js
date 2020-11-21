@@ -23,12 +23,25 @@ export const UserAPI = {
         return instans.post(`follow/${userId}`)
     },
     getProfile(userId) {
+        console.warn('Obsolete method please use ProfileAPI object');
+        return profileAPI.getProfile(userId);
+    },
+}
+
+export const profileAPI = {
+    getProfile(userId) {
         return instans.get(`profile/` + userId)
+    },
+    getStatus(userId) {
+        return instans.get(`profile/status/` + userId)
+    },
+    updateStatus(status) {
+        return instans.put(`profile/status`, {status: status})
     },
 }
 
 export const AuthAPI = {
-     me() {
-       return instans.get(`auth/me`)
+    me() {
+        return instans.get(`auth/me`)
     }
 }
