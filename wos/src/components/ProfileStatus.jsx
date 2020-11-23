@@ -28,12 +28,12 @@ class ProfileStatus extends React.Component {
     render() {
 
         return <div className='status'>
-            {(this.state.editMode
-                ? <div><input onChange={this.onStatusChange} autoFocus={true} value={this.state.status}
-                                     onBlur={this.deactiveEditMode.bind(this)}/></div>
-                :
-                <div><span onClick={this.activeEditMode.bind(this)}>{this.props.userStatus || 'no status'}</span>
-                </div>)}
+            {!this.state.editMode &&
+            <div><span onClick={this.activeEditMode.bind(this)}>{this.props.userStatus || 'no status'}</span></div>}
+            {this.state.editMode &&
+            <div><input onChange={this.onStatusChange} autoFocus={true} value={this.state.status}
+                        onBlur={this.deactiveEditMode.bind(this)}/></div>}
+
         </div>
 
     };

@@ -27,11 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Local state/status API request #73 (WIP)&#10;Added status change function.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wos/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/LoginPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/LoginPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" afterDir="false" />
     </list>
@@ -168,6 +163,7 @@
       <workItem from="1605869700368" duration="36000" />
       <workItem from="1605870019935" duration="2004000" />
       <workItem from="1605907849480" duration="9882000" />
+      <workItem from="1606154512810" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
