@@ -25,10 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="Local state/status API request #73 (WIP)&#10;Added status change function.">
+    <list default="true" id="0b44e386-358f-4696-aabb-db1bcac73f73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/components/ProfileStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/wos/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,8 @@
       <workItem from="1605869700368" duration="36000" />
       <workItem from="1605870019935" duration="2004000" />
       <workItem from="1605907849480" duration="9882000" />
-      <workItem from="1606154512810" duration="799000" />
+      <workItem from="1606154512810" duration="1664000" />
+      <workItem from="1606456141302" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor and created reducers for react-redux. #41">
       <created>1591790003326</created>
@@ -347,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600588325899</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Local state/status API request #73 (Fixed)&#10;Added status change function.">
+      <created>1606155575944</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606155575944</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Context API #44&#10;- removed props from App component&#10;- added StoreContext with store" />
     <MESSAGE value="Context API #45-46&#10;- removed Context&#10;- added react-redux &quot;Connect&quot;" />
     <MESSAGE value="stateCopy #47&#10;Deep state copy in (reducer's)&#10;for flux." />
     <MESSAGE value="stateCopy (ref) #48&#10;Reducer's refactor copy state" />
@@ -413,6 +420,7 @@
     <MESSAGE value="HOC #69&#10;- WithAuthRedirect" />
     <MESSAGE value="Compose #70&#10;compose(hoc3,hoc2,hoc1) (Component)" />
     <MESSAGE value="Local state/status API request #73 (WIP)&#10;Added status change function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Local state/status API request #73 (WIP)&#10;Added status change function." />
+    <MESSAGE value="Local state/status API request #73 (Fixed)&#10;Added status change function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Local state/status API request #73 (Fixed)&#10;Added status change function." />
   </component>
 </project>

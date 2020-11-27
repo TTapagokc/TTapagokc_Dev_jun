@@ -33,6 +33,7 @@ let mapStateToProps = (state) => ({
     status: state.ProfilePage.status,
 });
 
+//redirect to login*
 export default compose(
     connect(mapStateToProps, {getProfile, getStatus, updateStatus}),
     withAuthRedirect,
